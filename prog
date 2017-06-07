@@ -2,6 +2,11 @@
 int main()
 {
 	printf("hello there!");
+
 	printf("now i have edited the file in master");
+
+	printf("now i have edited the file branch");
+	printf("edited in branch");
+
 	return 0;
 }
