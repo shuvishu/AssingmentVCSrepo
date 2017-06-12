@@ -1,0 +1,60 @@
+<html>
+<head>
+ <link rel="stylesheet" href="html_ass.css">
+</head>
+<body>
+<span id=s1  >TO THE NEW</span>
+<span id=s2  >Home</span>
+<span id=s3  >Quick help</span>
+<hr>
+
+<div id=d1>
+<div id=dbugreport>
+	<h2 style="">Bug Report</h2>
+</div>
+	<form id= f1 action="test.html">
+	Title*<BR><input type="text" name="title" required><BR>
+	Description*<br><textarea name="description" required></textarea>
+	Operating System:<br>
+	<select id=selOS style="color: white; font-size: 15px;">
+		<option value="windows">Windows XP</option>
+  		<option value="ubuntu">Ubuntu</option>
+  		<option value="cent OS">CENT OS</option>
+  		<option value="Unix">Unix</option>
+	</select>
+	<BR>
+	<BR>
+	Product:*<BR>
+	<select id=pro style="color: white; font-size: 15px;">
+		<option value="formid">Formid</option>
+  		<option value="ubuntu">Ubuntu</option>
+  		<option value="cent OS">CENT OS</option>
+  		<option value="Unix">Unix</option>
+	</select>
+	<BR>
+	<BR>
+	Version:*<BR>
+	<input style="width: 125px; height: 50px;" type="text" name="version"><br>
+	<br>
+	Licence:<br>
+	<input type="radio" name="licence" value="free"> Free
+ 	 <input style="margin-left: 170px;" type="radio" name="licence" value="business"> Business<br>
+ 	 <BR>Severity:<BR>
+	<select id=severity style="color: white; font-size: 15px;">
+		<option value="sever">Critical</option>
+  		<option value="ubuntu">Moderate</option>
+	</select><br><br>
+	Attachments:<br>
+	<input style="width: 350px; height: 30px;" type="text" value="No file selected">
+	
+	<input type="button" value="Choose File" style="border-radius:0px 5px 5px 0px; height: 30px;"/>
+	<br>
+	</form>
+	
+<div class="formsubmit"><hr/>
+	<input type="submit" value="Submit" style="margin-left:340px;margin-top:4px;background-color:#00cc99;border-radius: 7px;"/></div>
+	
+</div>
+
+</body>
+</html>

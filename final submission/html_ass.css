@@ -1,0 +1,94 @@
+
+#f1{
+	
+	margin-left: 20px;
+
+}
+#selOS{
+	width: 440px;
+	margin-top: 5px; 
+	border-radius: 5px;
+	height: 30px;
+	background-color: #00B6B6;
+}
+#pro{
+	width: 440px;
+	margin-top: 5px; 
+	border-radius: 5px;
+	height: 30px;
+	background-color: #00B6B6;
+}
+#severity{
+	width: 440px;
+	margin-top: 5px; 
+	border-radius: 5px;
+	height: 35px;
+	background-color: #00B6B6;
+}
+input[type="text"]
+{
+	width: 440px;
+	border-radius: 5px;
+}
+input[type="file"]
+{
+	display: none;
+}
+textarea {
+    width: 440px;
+    border-radius: 5px;
+    margin-bottom:10px;
+}
+
+hr{
+	color:
+}
+body{
+	
+}
+#s1{
+	color:#00B6B6;
+	font-family:DejaVu Sans Condensed;
+	font-size:30px;
+	margin-left: 15px;
+
+}
+#s2{
+	color:#00B6B6;
+	font-family:DejaVu Sans Condensed;
+	font-size:14px;
+	margin-left: 930px;
+
+
+}
+#s3{
+	color:#00B6B6;
+	font-family:DejaVu Sans Condensed;
+	font-size:14px;
+	margin-left: 15px;
+
+}
+#d1{
+	margin-top: 15px;
+	border-radius: 10px;
+	border:2px solid #000;
+	margin-left: 400px;
+	margin-right: 400px;
+
+}
+#dbugreport{
+	background-color: #808080;
+	color: #fff;
+	padding-top: 10px;
+	font-family: serif;
+	font-size: larger;
+	border-radius: 10px 10px 0px 0px;
+}
+.formsubmit{
+			background-color:	#C0C0C0;
+			height: 60px;
+			border-radius: 0px 0px 10px 10px;
+			
+		
+	
+}
